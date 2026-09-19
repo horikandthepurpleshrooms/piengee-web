@@ -18,12 +18,14 @@ export default function Home() {
         <div className="nav-links">
           <a href="#features">Features</a>
           <Link href="/privacy/">Privacy</Link>
+          <Link href="/terms-and-conditions/">Terms</Link>
           <Link href="/support/">Support</Link>
         </div>
       </nav>
 
       <section className="hero">
         <div className="hero-copy">
+          <Image className="hero-icon" src="/icon.png" alt="Piengee app icon" width={144} height={144} priority />
           <p className="eyebrow">VISUAL BOARDS, MADE SIMPLE</p>
           <h1>Make space for ideas.</h1>
           <p className="lede">Piengee is a calm canvas for arranging photos, PNGs, references, and whatever you are thinking through.</p>
@@ -32,11 +34,9 @@ export default function Home() {
             <Link className="text-link" href="/privacy/">Read our privacy policy <span aria-hidden="true">→</span></Link>
           </div>
         </div>
-        <div className="hero-art" aria-label="Piengee visual board preview">
+        <div className="hero-art" aria-label="Abstract Piengee canvas preview">
           <div className="grid" />
-          <div className="note note-one" />
-          <div className="note note-two" />
-          <div className="board-mark"><Image src="/icon.png" alt="" width={116} height={116} priority /></div>
+          <div className="hero-glow" />
           <span className="dot dot-one" />
           <span className="dot dot-two" />
         </div>
@@ -71,6 +71,7 @@ export default function Home() {
         <span>© 2026 Kenatsumu Studio</span>
         <div>
           <Link href="/privacy/">Privacy</Link>
+          <Link href="/terms-and-conditions/">Terms</Link>
           <Link href="/support/">Support</Link>
           <a href="mailto:support@kenatsumu.studio">support@kenatsumu.studio</a>
         </div>

@@ -5,7 +5,7 @@ export const metadata = { title: "Support — Piengee" };
 export default function SupportPage() {
   return (
     <main className="legal-page">
-      <header className="legal-nav"><Link href="/" className="brand">← Piengee</Link><Link href="/privacy/">Privacy</Link></header>
+      <header className="legal-nav"><Link href="/" className="brand">← Piengee</Link><div><Link href="/privacy/">Privacy</Link><Link href="/terms-and-conditions/">Terms</Link></div></header>
       <article>
         <p className="eyebrow">SUPPORT</p>
         <h1>How can we help?</h1>
