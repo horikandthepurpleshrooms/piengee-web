@@ -1,10 +1,2 @@
-node_modules/
-.next/
-out/
-*.tsbuildinfo
+# Global 
 .DS_Store
-
-# Local hosting and runtime state
-.openai/
-.sites-runtime/
-.env.local
